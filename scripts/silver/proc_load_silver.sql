@@ -1,4 +1,21 @@
-EXEC silver.load_silver
+/*
+==========================================================================================
+Stored Procedure: Load Silver layer (source => Bronze)
+==========================================================================================
+Script purpose:
+      This stored procedure loads data into the 'silver' schema dropping existing tables.
+      It performs the following actions:
+      - Truncates the silver tables before loading data from the bronze layer
+      - Run this script to redefine the 'bronze' layer DDL
+
+Parameters:
+     None
+  This stored procedure does not accept any parameters or return any value
+
+Usage Example:
+EXEC silver.load_silver;
+=============================================================================================
+*/
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN

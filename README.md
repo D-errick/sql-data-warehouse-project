@@ -8,7 +8,17 @@ This repository documents the development of an end-to-end **Data Warehouse (DWH
 
 The diagram below illustrates the overall data pipeline, showing the movement of data from **source systems** into the **Bronze**, **Silver**, and **Gold** layers.
 
-![Data Flow Diagram](Screenshot%202025-10-22%20140349.png)
+
+<img width="814" height="562" alt="Screenshot 2025-10-22 140349" src="https://github.com/user-attachments/assets/bfc62ba0-88b7-4f53-8038-4ada7d675d3c" />
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -80,7 +90,3 @@ The diagram below illustrates the overall data pipeline, showing the movement of
 
 ---
 
-## 🧾 **How to Run**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git

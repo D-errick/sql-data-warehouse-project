@@ -1,3 +1,19 @@
+/* 
+====================================================================
+Quality Checks
+====================================================================
+Script purpose:
+This script performs various quality checks such as checking for duplicates,
+data consistency, accuracy, data standardization across the 'silver' schema.
+It includes checks for:
+-Null or duplicate primary keys
+-unwanted spaces in string columns
+-data standardization and consistency
+-invalid date ranges and orders
+-data consistency btwn related fields
+*/
+
+
 -- Check for Nulls or Duplicates in primary key
 -- Expectation: No result
 SELECT *
